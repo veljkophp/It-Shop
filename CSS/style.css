@@ -1,0 +1,1123 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#header {
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    display: block;
+}
+#header > .header_left {
+    float: left;
+    width: calc(100% / 3);
+    height: 100%;
+}
+.header_left img {
+    height: 50px;
+    width: 150px;
+    float: left;
+    margin-left: 50px;
+}
+.menu {
+    margin-left: 30px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    height: 40px;
+    width: 40px;
+    background-color: #5e5e5e;
+    border: none;
+    color: white;
+}
+#header > .header_center {
+    float: left;
+    width: calc(100% / 3);
+    height: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#header > .header_center input {
+    width: 400px;
+    height: 30px;
+    background-color: #cfcfd1;
+    border: none    ;
+    border-radius: 4px 0 0 4px;
+}
+#header > .header_center button {
+    height: 30px;
+    width: 50px;
+    border: none;
+    background-color: #5e5e5e;
+    border-radius: 0 4px 4px 0;
+}
+#header > .header_right {
+    float: right;
+    width: calc(100% / 3);
+    height: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 21px;
+}
+#footer {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    color: red;
+    clear: both;
+}
+#login {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#login > .login_left {
+    float: left;
+    height: 100%;
+    width: 40%;
+    padding: 50px;
+}
+#login > .login_left table {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+#login > .login_left table img {
+    width: 500px;
+    height: 300px;
+
+}
+#login > .login_right {
+    width: 60%;
+    height: 100%;
+    float: right;
+    text-align: center;
+}
+#login > .login_right table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+a {
+    color: #1f1d1d;
+    text-decoration: none;
+}
+#content {
+    position: fixed;
+    top: 50px;
+    width: 100%;
+    bottom: 0;
+    overflow-y: auto;
+    left: 0;
+    right: 0;
+}
+#content h2 {
+    padding: 0;
+    margin: 0;
+}
+#footer {
+    text-align: center;
+}
+#login {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+#login > .login_left {
+    height: 100%;
+    width: 40%;
+    float: left;
+}
+#login > .login_right {
+    height: 100%;
+    width: 60%;
+    float: right;
+    text-align: center;
+    padding-top: 100px;
+}
+#login > .login_right table {
+    padding: 50px;
+}
+#login > .login_right table  th {
+    padding-bottom: 20px;
+    width: 100px;
+}
+#login > .login_right table  td {
+    padding-bottom: 20px;
+}
+#login > .login_right input {
+    /* background-color: #d3d3d3;*/
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    width: 200px;
+}
+#login > .login_right button {
+    width: 60px;
+    height: 18px;
+    color: white;
+    background-color: #5e5e5e;
+    border: none;
+}
+#login > .login_right button:hover {
+    width: 70px;
+    height: 20px;
+}
+#login > .login_right h2 {
+    font-size: 30px;
+}
+#singupP {
+    width: 100%;
+    overflow: hidden;
+}
+#singupP > .singupP_left {
+    width: 40%;
+    float: left;
+    border-right: 1px solid black;
+}
+#singupP > .singupP_right {
+    width: 60%;
+    float: right;
+    text-align: center;
+}
+#singupP > .singupP_right table {
+    margin-left: 80px;
+}
+#singupP > .singupP_right table  th {
+    padding-bottom: 10px;
+    width: 200px;
+}
+#singupP > .singupP_right table  td {
+    padding-bottom: 10px;
+}
+#singupP > .singupP_right input {
+    /* background-color: #d3d3d3;*/
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    width: 200px;
+}
+#singupP > .singupP_right button {
+    width: 60px;
+    height: 18px;
+    color: white;
+    background-color: #5e5e5e;
+    border: none;
+}
+#singupP > .singupP_right button:hover {
+    width: 70px;
+    height: 20px;
+}
+#singupP > .singupP_right h2 {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+#singupK {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+#singupK > .singupK_left {
+    height: 100%;
+    width: 40%;
+    float: left;
+    border-right: 1px solid black;
+}
+#singupK > .singupK_right {
+    height: 100%;
+    width: 60%;
+    float: right;
+    text-align: center;
+}
+#singupK > .singupK_right table {
+    margin-left: 80px;
+}
+#singupK > .singupK_right table  th {
+    padding-bottom: 10px;
+    width: 200px;
+}
+#singupK > .singupK_right table  td {
+    padding-bottom: 10px;
+}
+#singupK > .singupK_right input {
+    /* background-color: #d3d3d3;*/
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    width: 200px;
+}
+#singupK > .singupK_right button {
+    width: 60px;
+    height: 18px;
+    color: white;
+    background-color: #5e5e5e;
+    border: none;
+}
+#singupK > .singupK_right button:hover {
+    width: 70px;
+    height: 20px;
+}
+#singupK > .singupK_right h2 {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+#SignUp {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#SignUp > .kupci {
+    width: calc(100% / 2);
+    height: 100%;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    padding: 100px;
+}
+#SignUp > .kupci button {
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+}
+#SignUp > .kupci button:hover {
+    width: 110px;
+    height: 35px;
+}
+#SignUp > .kupci table {
+    margin-left: 0;
+    margin-right: 0;
+}
+#SignUp > .prodavci {
+    width: calc(100% / 2);
+    height: 100%;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    padding: 100px;
+}
+#SignUp > .prodavci table {
+    margin-left: 0;
+    margin-right: 0;
+}
+#SignUp > .prodavci button {
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+}
+#SignUp > .prodavci button:hover {
+    width: 110px;
+    height: 35px;
+}
+#sellProfNav {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    background-color: #c1c1c1;
+    overflow: hidden;
+    border: 1px solid grey;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+#sellProfNav > .left {
+    float: left;
+    height: 100%;
+    width: calc(100% / 5);
+    border-right: 1px solid grey;
+}
+#sellProfNav > .center1 {
+    float: left;
+    height: 100%;
+    width: calc(100% / 5);
+    border-right: 1px solid grey;
+}
+#sellProfNav > .center2 {
+    float: left;
+    height: 100%;
+    width: calc(100% / 5);
+    border-right: 1px solid grey;
+}
+#sellProfNav > .right {
+    float: right;
+    height: 100%;
+    width: calc(100% / 5);
+}
+#sellProfNav > .right1 {
+    float: left;
+    height: 100%;
+
+    border-right: 1px solid grey;
+    width: calc(100% / 5);
+}
+#sellProfNav > .right1 a:hover {
+    background-color: #8e8e8e;
+    border-radius: 4px;
+}
+#sellProfNav > .left a:hover {
+    background-color: #8e8e8e;
+    border-radius: 4px;
+}
+#sellProfNav > .right a:hover {
+    background-color: #8e8e8e;
+    border-radius: 4px;
+}
+#sellProfNav > .center1 a:hover {
+    background-color: #8e8e8e;
+    border-radius: 4px;
+}
+#sellProfNav > .center2 a:hover {
+    background-color: #8e8e8e;
+    border-radius: 4px;
+
+}
+#sellProfNav a {
+    height: 100%;
+}
+#Seller {
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 100px;
+}
+#Seller > .sellerfleft {
+    float: left;
+    height: 100%;
+    width: 30%;
+    padding-left: 200px;
+    padding-top: 50px;
+}
+#Seller > .sellerright {
+    float: right;
+    height: 100%;
+    width: 70%;
+    padding-top: 50px;
+    padding-left: 80px;
+}
+#Seller > .sellerright table {
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 800px;
+}
+#Seller > .sellerright table th {
+    width: 200px;
+    padding-bottom: 10px;
+    text-align: center
+}
+#Seller > .sellerright table td {
+    width: 200px;
+    padding-bottom: 10px;
+}
+#Seller > .sellerright input {
+    width: 200px;
+} 
+.ADD {
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+}
+.ADD table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    margin-bottom: 100px;
+    border: 1px solid gray;
+}
+.ADD table th {
+    padding-bottom: 20px;
+    width: 100px;
+
+    text-align: center;
+}
+.ADD table td {
+    padding-bottom: 20px;
+    width: 200px;
+
+    text-align: left;
+}
+.ADD table textarea {
+    width:300px;
+    height: 70px;
+}
+.sellInbox {
+    width: 50%;
+    height: 80px;
+    text-align: center;
+    background-color: #e6e6e6;
+    overflow: hidden;
+    border: 1px solid grey;
+    font-size: 20px;
+    margin-top: 30px;
+    margin: auto;
+    box-shadow: 5px 10px #DEDEDE;
+    margin-top: 10px;
+    font-weight: bold;
+    border-radius: 7px;
+}
+.sellInbox > .left {
+    float: left;
+    height: 100%;
+    width: calc(100% / 2);
+    border-right: 1px solid grey;
+    padding: 22px;
+    background-color: #b3b3b3;
+    border-radius: 3px;
+}
+.sellInbox > .right {
+    float: left;
+    height: 100%;
+    width: calc(100% / 2);
+    padding: 22px;
+}
+.sellInbox > .left a:hover {
+    background-color: #8e8e8e;
+    border-radius: 4px;
+}
+.sellInbox > .right a:hover {
+    background-color: #8e8e8e;
+    border-radius: 4px;
+}
+.sellInbox a {
+    height: 100%;
+}
+.sellSent {
+    width: 50%;
+    height: 80px;
+    text-align: center;
+    background-color: #e6e6e6;
+    overflow: hidden;
+    border: 1px solid grey;
+    font-size: 20px;
+    margin-top: 30px;
+    margin: auto;
+    box-shadow: 5px 10px #bfbfbf;
+    margin-top: 10px;
+    font-weight: bold;
+    border-radius: 7px;
+}
+.sellSent > .left {
+    float: left;
+    height: 100%;
+    width: calc(100% / 2);
+    border-right: 1px solid grey;
+    padding: 22px;
+}
+.sellSent > .right {
+    float: left;
+    height: 100%;
+    width: calc(100% / 2);
+    padding: 22px;
+    background-color: #b3b3b3;
+    border-radius: 3px;
+}
+.sellSent > .left a:hover {
+    background-color: #8e8e8e;
+    border-radius: 4px;
+}
+.sellSent > .right a:hover {
+    background-color: #8e8e8e;
+    border-radius: 4px;
+}
+.sellSent a {
+    height: 100%;
+}
+
+.sellerSentMsg  {
+    width: 98%;
+    height: auto;
+    border: 1px solid black;
+    background-color: #DDDDDD;
+    margin: auto;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-radius: 3px;
+}
+
+.time {
+    float: right;
+}
+
+.messageContent {
+    width: 50%;
+    margin: auto;
+    border: 1px solid black;
+    /*height: 650px;*/
+    margin-top: 15px;
+    border-radius: 7px;
+}
+.all_product {
+    float: left;
+    width: calc(100% / 3);
+    height: 450px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.all_product img {
+    width: 200px;
+    height: 200px;
+}
+.adwertALL {
+    float: left;
+    width: calc(100% / 4);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.adwertALL textarea {
+    width: 250px;
+    height: 80px
+}
+#productDesc {
+    width: 100%;
+    margin-top: 100px;
+    overflow: hidden;
+}
+.productDescLeft {
+    width: 30%;
+    float: left;
+}
+.productDescCenter {
+    width: 50%;
+    float: left;
+}
+.productDescCenter table {
+    margin-left: auto;
+    margin-right: auto;
+}
+.productDescCenter table th {
+    padding-bottom: 30px;
+    padding-right: 30px;
+    text-align: left;
+}
+.productDescCenter table td {
+    padding-bottom: 30px;
+    text-align: left;
+}
+ .price {
+    color: red;
+    font-size: 30px;
+     text-decoration: underline;
+}
+.productDescRight {
+    width: 20%;
+    float: right;
+    padding-left: 50px;
+}
+.name {
+    font-size: 25px;
+    font-weight: 400;
+}
+#slideshow {
+    height: 450px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+      
+#leftHolder {
+    height: 450px;
+    width: 100px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+#rightHolder {
+    height: 450px;
+    width: 100px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.leftArrow {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 40%;
+    left: 0px;
+}
+.rightArrow {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 40%;
+    right: 0px;
+}
+#buyProfNav {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    background-color: #c1c1c1;
+    overflow: hidden;
+    border: 1px solid grey;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+#buyProfNav > .left {
+    float: left;
+    height: 100%;
+    width: calc(100% / 4);
+    border-right: 1px solid grey;
+}
+#buyProfNav > .center1 {
+    float: left;
+    height: 100%;
+    width: calc(100% / 4);
+    border-right: 1px solid grey;
+}
+#buyProfNav > .center2 {
+    float: left;
+    height: 100%;
+    width: calc(100% / 4);
+    border-right: 1px solid grey;
+}
+#buyProfNav > .right {
+    float: right;
+    height: 100%;
+    width: calc(100% / 4);
+}
+#buyProfNav > .left a:hover {
+    background-color: #8e8e8e;
+    border-radius: 4px;
+}
+#buyProfNav > .right a:hover {
+    background-color: #8e8e8e;
+    border-radius: 4px;
+}
+#buyProfNav > .center1 a:hover {
+    background-color: #8e8e8e;
+    border-radius: 4px;
+}
+#buyProfNav > .center2 a:hover {
+    background-color: #8e8e8e;
+    border-radius: 4px;
+
+}
+#buyer {
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 100px;
+}
+#buyer > .buyerleft {
+    float: left;
+    height: 100%;
+    width: 30%;
+    padding-left: 200px;
+    padding-top: 50px;
+}
+#buyer > .buyerright {
+    float: right;
+    height: 100%;
+    width: 70%;
+    padding-top: 50px;
+    padding-left: 80px;
+}
+#buyer > .buyerright table {
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 800px;
+}
+#buyer > .buyerright table th {
+    width: 200px;
+    padding-bottom: 10px;
+    text-align: center
+}
+#buyer > .buyerright table td {
+    width: 200px;
+    padding-bottom: 10px;
+}
+#buyer > .buyerright input {
+    width: 200px;
+}
+.buyerInbox {
+    width: 50%;
+    height: 80px;
+    text-align: center;
+    background-color: #e6e6e6;
+    overflow: hidden;
+    border: 1px solid grey;
+    font-size: 20px;
+    margin-top: 30px;
+    margin: auto;
+    box-shadow: 5px 10px #bfbfbf;
+    margin-top: 10px;
+    font-weight: bold;
+    border-radius: 7px;
+}
+.buyerInbox > .left {
+    float: left;
+    height: 100%;
+    width: calc(100% / 2);
+    border-right: 1px solid grey;
+    padding: 22px;
+    background-color: #b3b3b3;
+    border-radius: 3px;
+}
+.buyerInbox > .right {
+    float: left;
+    height: 100%;
+    width: calc(100% / 2);
+    padding: 22px;
+}
+.buyerInboxbuyerSent > .left a:hover {
+    background-color: #8e8e8e;
+    border-radius: 4px;
+}
+.buyerInboxbuyerSent > .right a:hover {
+    background-color: #8e8e8e;
+    border-radius: 4px;
+}
+.buyerInboxbuyerSent a {
+    height: 100%;
+}
+.buyerSent {
+    width: 50%;
+    height: 80px;
+    text-align: center;
+    background-color: #e6e6e6;
+    overflow: hidden;
+    border: 1px solid grey;
+    font-size: 20px;
+    margin-top: 30px;
+    margin: auto;
+    box-shadow: 5px 10px #bfbfbf;
+    margin-top: 10px;
+    font-weight: bold;
+    border-radius: 7px;
+}
+.buyerSent > .left {
+    float: left;
+    height: 100%;
+    width: calc(100% / 2);
+    border-right: 1px solid grey;
+    padding: 22px;
+}
+.buyerSent > .right {
+    float: left;
+    height: 100%;
+    width: calc(100% / 2);
+    padding: 22px;
+    background-color: #b3b3b3;
+    border-radius: 3px;
+}
+.buyerSent > .left a:hover {
+    background-color: #8e8e8e;
+    border-radius: 4px;
+}
+.buyerSent > .right a:hover {
+    background-color: #8e8e8e;
+    border-radius: 4px;
+}
+.buyerSent a {
+    height: 100%;
+}
+.messageContent {
+    width: 50%;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 15px;
+    padding: 15px;
+}
+
+.message {
+    width:100%;
+    overflow: hidden;
+    padding: 10px;
+    background-color: #eaf2ff;
+}
+.message > .left_top {
+    float: left;
+    width: 50%;
+    text-align: left;
+    height: 25px;
+    border-bottom: 1px dotted grey;
+}
+.message > .right_top {
+    float: right;
+    width: 50%;
+    text-align: right;
+    height: 25px;
+    border-bottom: 1px dotted grey;
+}
+.message > .message_text {
+    width: 100%;
+    padding-bottom: 15px;
+    border-bottom: 1px solid grey;
+}
+.nameProduct {
+    font-weight: bolder;
+}
+.nameProduct a:hover {
+    color: #8793a5;
+}
+.productDescRight > button #message {
+    border-radius: 3px;
+}
+.text {
+    height: 150px;
+    width: 100%;
+    display: none;
+}
+.send {
+    display: none;
+}
+.dropmenu {
+     width: 300px;
+     display: none;
+     position: fixed;
+     left: 0px;
+     top: 60px;
+     z-index: 2;
+     background-color: #707070;
+     color: white;
+     text-align: center;
+     font-size: 20px;
+     height: 500px;
+ }
+.dropmenu a {
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+}
+.dropmenu a:hover {
+    background-color: #494949;
+}
+.dropequi {
+    width: 300px;
+    display: none;
+    position: fixed;
+    left: 300px;
+    top: 60px;
+    z-index: 2;
+    background-color: #707070;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    height: 500px;
+}
+.dropequi a {
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+}
+.dropequi a:hover {
+    background-color: #494949;
+    display: block;
+}
+.dropcomp {
+    width: 300px;
+    display:none;
+    position: fixed;
+    left: 300px;
+    top: 60px;
+    z-index: 2;
+    background-color: #707070;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    height: 500px;
+
+}
+.dropcomp a {
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+}
+.dropcomp a:hover {
+    background-color: #494949;
+}
+#message {
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-radius: 4px;
+}
+#message:hover {
+    border: 1px solid grey;
+}
+#phone {
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-radius: 4px;
+}
+#phone:hover {
+    border: 1px solid grey;
+}
+
+.buyButton {
+    border: none;
+    width: 140px;
+    height: 30px;
+    border-radius: 4px;
+    color: green;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.buyButton:hover {
+    border: 1px solid grey;
+}
+#SignUp > .shakingHands {
+    width: 100%;
+    height: calc(100% / 4);
+    margin-top: 20px;
+} 
+#SignUp > .shakingHands .shake {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+}
+.check {
+    color: green;
+}
+.checkB {
+    width: 70px;
+    height: 30px;
+    border: none;
+}
+.checkB:hover {
+    border: 1px solid grey;
+}
+.order {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    overflow: hidden;
+}
+.order > .orders {
+    width: 100%;
+    padding: 20px;
+    background-color: #e8e8e8;
+
+}
+
+
+
+
+.star{
+    color: #ccc;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+.star-checked{
+    color: gold;
+}
+
+.star-checked-2{
+    color: gold;
+}
+#result{
+    display: none;
+}
+b.r{
+    color: red;
+}
+b.g{
+    color: green;
+}
+
+.order > .orders table {
+    margin-left: 30%;
+}
+.order > .orders table th {
+    text-align: left;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+.order > .orders table td {
+    text-align: left;
+    padding-bottom: 10px;
+}
+.checkS {
+    width: 70px;
+    height: 30px;
+}
+.addcomments {
+    wisth: 100%;
+    height: 150px;
+}
+.addcomments table {
+    width: 90%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+.addcomments textarea {
+    width: 600px;
+    height: 50px;
+    background-color: #e5e5e5;
+}
+
+.addcomments button {
+    border: none;
+    width: 100px;
+    height: 50px;
+}
+.addcomments button:hover {
+    border: 1px solid darkgrey;
+}
+#button_buy {
+    border: none;
+    color: green;
+    width: 100px;
+    height: 30px;
+}
+#button_buy:hover {
+    border: 1px solid darkgrey;
+}
+.comments {
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    border: 1px solid darkgrey;
+    background-color: #e0e0e0;
+}
+.comments > .top_left {
+    float: left;
+    text-align: left;
+    width: 70%;
+    height: 30px;
+}
+.comments > .top_right {
+    float: right;
+    text-align: right;
+    width: 30%;
+    height: 30px;
+}
+.comments > .content {
+    width: 100%;
+    text-align: left;
+    background-color: #e0e0e0;
+}
